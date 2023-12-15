@@ -1,0 +1,21 @@
+/* Gallery.css */
+
+.gallery-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the container takes up the full height of its parent */
+  }
+
+.gallery-item img {
+    width: 80%; /* Ensure the image doesn't exceed its container width */
+    height: auto; /* Maintain the image's aspect ratio */
+  }
+  
+  /* Adjust image size for screens with a max-width of 768px */
+  @media (max-width: 768px) {
+    .gallery-item img {
+      max-width: 50%; /* Reduce the image width to 50% of its container for smaller screens */
+    }
+  }
+  

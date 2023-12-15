@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+.App {
+  text-align: center;
+  background-color: #eeeee8;
+}
+
+body {
+  background-color: #eeeee8;
+}
+
+.navbar {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-title {
+  font-size: 24px;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links a {
+  color: black; /* Black text for links */
+  text-decoration: none;
+  margin-left: 20px; /* Space between links */
+  font-size: 16px; /* Smaller font size for links */
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+.navbar-toggler {
+  background: none;
+  border: none;
+  color: black;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.navbar-menu a {
+  color: black; /* Black text for links */
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.navbar-menu.expanded {
+  display: flex;
+}
+
+.navbar-menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.navbar-menu a:hover {
+  text-decoration: underline;
+}
